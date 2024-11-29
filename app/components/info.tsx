@@ -22,26 +22,33 @@ function info() {
             <i className="fa-regular fa-circle mt-2 mr-4 text-sm"></i>
             <div>
               <h3 className="text-xl font-semibold">
-                Patient Management and Revenue Calculation System for a Clinic{" "}
+                Time Management System{" "}
                 <span className="font-normal text-gray-600">
                   {" "}
-                  / March 2023 - April 2023
+                  / November 2024
                 </span>
               </h3>
 
               <ul className="list-disc list-inside space-y-2 my-5 text-lg">
                 <li>
-                  Developed a system for managing patient records and
-                  calculating clinic revenue.
+                  Designed a system for creating boards that enable users to
+                  collaborate and manage a shared calendar.
                 </li>
-                <li>
-                  Utilized React framework for the front-end and Laravel for the
-                  back-end, integrated with a MySQL database.
-                </li>
+                <li>Developed using Next.js and Supabase as the database.</li>
               </ul>
               <div className="flex gap-3">
                 <Link
-                  href="https://github.com/Poraparint/DentLab-React-Laravel"
+                  href="https://appointment-dental.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="btn text-secon bg-main border-none">
+                    <i className="fa-solid fa-link"></i>
+                    Visit My Website
+                  </div>
+                </Link>
+                <Link
+                  href="https://github.com/Poraparint/Appointment-Nextjs"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -60,7 +67,7 @@ function info() {
                 Team Project: Job Finder System{" "}
                 <span className="font-normal text-gray-600">
                   {" "}
-                  / June 2023 - October 2023
+                  / June 2024 - October 2024
                 </span>
               </h3>
 
@@ -99,37 +106,31 @@ function info() {
             </div>
           </div>
           {/* Experience 3 */}
+
           <div className="flex items-start">
             <i className="fa-regular fa-circle mt-2 mr-4 text-sm"></i>
             <div>
               <h3 className="text-xl font-semibold">
-                Time Management System{" "}
+                Patient Management and Revenue Calculation System for a Clinic{" "}
                 <span className="font-normal text-gray-600">
                   {" "}
-                  / November 2023
+                  / March 2024 - April 2024
                 </span>
               </h3>
 
               <ul className="list-disc list-inside space-y-2 my-5 text-lg">
                 <li>
-                  Designed a system for creating boards that enable users to
-                  collaborate and manage a shared calendar.
+                  Developed a system for managing patient records and
+                  calculating clinic revenue.
                 </li>
-                <li>Developed using Next.js and Supabase as the database.</li>
+                <li>
+                  Utilized React framework for the front-end and Laravel for the
+                  back-end, integrated with a MySQL database.
+                </li>
               </ul>
               <div className="flex gap-3">
                 <Link
-                  href="https://appointment-dental.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="btn text-secon bg-main border-none">
-                    <i className="fa-solid fa-link"></i>
-                    Visit My Website
-                  </div>
-                </Link>
-                <Link
-                  href="https://github.com/Poraparint/Appointment-Nextjs"
+                  href="https://github.com/Poraparint/DentLab-React-Laravel"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
