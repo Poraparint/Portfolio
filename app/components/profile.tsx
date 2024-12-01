@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Profile() {
   return (
-    <div className="w-[400px] bg-main flex flex-col items-end text-secon py-10 pr-5">
+    <div className="w-[400px] bg-main flex flex-col items-end text-secon py-10 pr-5 max-sm:w-full max-sm:pl-5">
       {/* Avatar Section */}
       <div className="relative w-36 h-36 rounded-full flex self-center max-lg:w-24 max-lg:h-24 mb-10 duration-700">
         <Image
@@ -18,7 +18,7 @@ function Profile() {
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-col gap-9 w-5/6 max-lg:text-lg duration-700">
+      <div className="flex flex-col gap-9 w-5/6 max-lg:text-lg duration-700 max-sm:w-full">
         {/* Contact Section */}
         <div className="flex flex-col">
           <h1 className="font-semibold text-2xl">CONTACT</h1>

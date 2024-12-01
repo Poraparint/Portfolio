@@ -3,9 +3,11 @@ import Link from 'next/link';
 
 function info() {
   return (
-    <div className="w-full text-main p-10 duration-700 flex flex-col gap-14">
+    <div className="w-full text-main p-10 duration-700 flex flex-col gap-14 max-sm:text-base">
       <div className="flex flex-col gap-3">
-        <h1 className="text-4xl font-semibold">PORAPARINT PKAKDEEPHUMMIN</h1>
+        <h1 className="text-4xl font-semibold max-sm:text-2xl">
+          PORAPARINT PKAKDEEPHUMMIN
+        </h1>
         <p className="mt-5">
           My name is Poraparint, a second-year student at the University of
           Phayao, majoring in Software Engineering. I am seeking internship
@@ -14,14 +16,14 @@ function info() {
         </p>
       </div>
       <div className="flex flex-col">
-        <h1 className="text-2xl font-semibold">EXPERIENCE</h1>
+        <h1 className="text-2xl max-sm:text-lg font-semibold">EXPERIENCE</h1>
         <hr className="mb-5 mt-2 border-main rounded-full" />
         <div className="space-y-16">
           {/* Experience 1 */}
           <div className="flex items-start">
             <i className="fa-regular fa-circle mt-2 mr-4 text-sm"></i>
             <div>
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-xl max-sm:text-lg font-semibold">
                 Time Management System{" "}
                 <span className="font-normal text-gray-600">
                   {" "}
@@ -29,7 +31,7 @@ function info() {
                 </span>
               </h3>
 
-              <ul className="list-disc list-inside space-y-2 my-5 text-lg">
+              <ul className="list-disc list-inside space-y-2 my-5 text-lgmax-sm:text-base">
                 <li>
                   Designed a system for creating boards that enable users to
                   collaborate and manage a shared calendar.
@@ -52,8 +54,8 @@ function info() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="btn text-secon bg-main border-none">
-                    <i className="fa-brands fa-github text-2xl"></i>
+                  <div className="btn text-secon bg-main border-none ">
+                    <i className="fa-brands fa-github text-2xl "></i>
                   </div>
                 </Link>
               </div>
@@ -63,7 +65,7 @@ function info() {
           <div className="flex items-start">
             <i className="fa-regular fa-circle mt-2 mr-4 text-sm"></i>
             <div>
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-xl font-semibold max-sm:text-lg">
                 Team Project: Job Finder System{" "}
                 <span className="font-normal text-gray-600">
                   {" "}
@@ -71,7 +73,7 @@ function info() {
                 </span>
               </h3>
 
-              <ul className="list-disc list-inside space-y-2 my-5 text-lg">
+              <ul className="list-disc list-inside space-y-2 my-5 text-lg max-sm:text-base">
                 <li>
                   Collaborated in a team of 4 members to create a system for
                   connecting employers and freelancers.
@@ -110,7 +112,7 @@ function info() {
           <div className="flex items-start">
             <i className="fa-regular fa-circle mt-2 mr-4 text-sm"></i>
             <div>
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-xl font-semibold max-sm:text-lg">
                 Patient Management and Revenue Calculation System for a Clinic{" "}
                 <span className="font-normal text-gray-600">
                   {" "}
@@ -118,7 +120,7 @@ function info() {
                 </span>
               </h3>
 
-              <ul className="list-disc list-inside space-y-2 my-5 text-lg">
+              <ul className="list-disc list-inside space-y-2 my-5 text-lg max-sm:text-base">
                 <li>
                   Developed a system for managing patient records and
                   calculating clinic revenue.
