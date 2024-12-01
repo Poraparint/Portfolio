@@ -30,7 +30,26 @@ function info() {
                   / November 2024
                 </span>
               </h3>
-
+              <div className="flex gap-2 items-center mt-3 ml-3">
+                <img
+                  src="https://skillicons.dev/icons?i=next"
+                  alt="Next.js"
+                  width={35}
+                  height={35}
+                />
+                <img
+                  src="https://skillicons.dev/icons?i=tailwind"
+                  alt="TailwindCSS"
+                  width={35}
+                  height={35}
+                />
+                <img
+                  src="https://skillicons.dev/icons?i=supabase"
+                  alt="Supabase"
+                  width={35}
+                  height={35}
+                />
+              </div>
               <ul className="list-disc list-inside space-y-2 my-5 text-lgmax-sm:text-base">
                 <li>
                   Designed a system for creating boards that enable users to
@@ -72,7 +91,26 @@ function info() {
                   / June 2024 - October 2024
                 </span>
               </h3>
-
+              <div className="flex gap-2 items-center mt-3 ml-3">
+                <img
+                  src="https://skillicons.dev/icons?i=next"
+                  alt="Next.js"
+                  width={35}
+                  height={35}
+                />
+                <img
+                  src="https://skillicons.dev/icons?i=tailwind"
+                  alt="TailwindCSS"
+                  width={35}
+                  height={35}
+                />
+                <img
+                  src="https://skillicons.dev/icons?i=supabase"
+                  alt="Supabase"
+                  width={35}
+                  height={35}
+                />
+              </div>
               <ul className="list-disc list-inside space-y-2 my-5 text-lg max-sm:text-base">
                 <li>
                   Collaborated in a team of 4 members to create a system for
@@ -119,7 +157,26 @@ function info() {
                   / March 2024 - April 2024
                 </span>
               </h3>
-
+              <div className="flex gap-2 items-center mt-3 ml-3">
+                <img
+                  src="https://skillicons.dev/icons?i=react"
+                  alt="React"
+                  width={35}
+                  height={35}
+                />
+                <img
+                  src="https://skillicons.dev/icons?i=laravel"
+                  alt="Laravel"
+                  width={35}
+                  height={35}
+                />
+                <img
+                  src="https://skillicons.dev/icons?i=mysql"
+                  alt="MYSQL"
+                  width={35}
+                  height={35}
+                />
+              </div>
               <ul className="list-disc list-inside space-y-2 my-5 text-lg max-sm:text-base">
                 <li>
                   Developed a system for managing patient records and

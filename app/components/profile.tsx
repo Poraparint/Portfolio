@@ -80,7 +80,7 @@ function Profile() {
                 <i className="fa-solid fa-code mr-2 text-lg"></i>
                 Frontend
               </h2>
-              <div className="flex flex-col gap-4 text-gray-300">
+              <div className="flex flex-col gap-4">
                 <div className="flex gap-5 items-center">
                   <img
                     src="https://skillicons.dev/icons?i=html"
@@ -143,7 +143,7 @@ function Profile() {
               <h2 className="text-xl font-medium text-secon mb-5 max-sm:text-main">
                 <i className="fa-solid fa-wrench mr-2 text-lg"></i>Tools
               </h2>
-              <div className="flex flex-col gap-4 text-gray-300">
+              <div className="flex flex-col gap-4">
                 <div className="flex gap-5 items-center">
                   <img
                     src="https://skillicons.dev/icons?i=figma"
