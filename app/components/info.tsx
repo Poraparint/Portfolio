@@ -21,7 +21,7 @@ function info() {
         <div className="space-y-16">
           {/* Experience 1 */}
           <div className="flex items-start">
-            <i className="fa-regular fa-circle mt-2 mr-4 text-sm"></i>
+            <i className="fa-solid fa-circle mt-2 mr-4 text-sm"></i>
             <div>
               <h3 className="text-xl max-sm:text-lg font-semibold">
                 Time Management System{" "}
@@ -88,7 +88,7 @@ function info() {
           </div>
           {/* Experience 2 */}
           <div className="flex items-start">
-            <i className="fa-regular fa-circle mt-2 mr-4 text-sm"></i>
+            <i className="fa-solid fa-circle mt-2 mr-4 text-sm"></i>
             <div>
               <h3 className="text-xl font-semibold max-sm:text-lg">
                 Team Project: Job Finder System{" "}
