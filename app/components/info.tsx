@@ -31,24 +31,30 @@ function info() {
                 </span>
               </h3>
               <div className="flex gap-2 items-center mt-3 ml-3">
-                <img
-                  src="https://skillicons.dev/icons?i=next"
-                  alt="Next.js"
-                  width={35}
-                  height={35}
-                />
-                <img
-                  src="https://skillicons.dev/icons?i=tailwind"
-                  alt="TailwindCSS"
-                  width={35}
-                  height={35}
-                />
-                <img
-                  src="https://skillicons.dev/icons?i=supabase"
-                  alt="Supabase"
-                  width={35}
-                  height={35}
-                />
+                <Link href="https://nextjs.org/" target="blank">
+                  <img
+                    src="https://skillicons.dev/icons?i=next"
+                    alt="Next.js"
+                    width={35}
+                    height={35}
+                  />
+                </Link>
+                <Link href="https://tailwindcss.com/" target="blank">
+                  <img
+                    src="https://skillicons.dev/icons?i=tailwind"
+                    alt="TailwindCSS"
+                    width={35}
+                    height={35}
+                  />
+                </Link>
+                <Link href="https://supabase.com/" target="blank">
+                  <img
+                    src="https://skillicons.dev/icons?i=supabase"
+                    alt="Supabase"
+                    width={35}
+                    height={35}
+                  />
+                </Link>
               </div>
               <ul className="list-disc list-inside space-y-2 my-5 text-lgmax-sm:text-base">
                 <li>
@@ -92,24 +98,30 @@ function info() {
                 </span>
               </h3>
               <div className="flex gap-2 items-center mt-3 ml-3">
-                <img
-                  src="https://skillicons.dev/icons?i=next"
-                  alt="Next.js"
-                  width={35}
-                  height={35}
-                />
-                <img
-                  src="https://skillicons.dev/icons?i=tailwind"
-                  alt="TailwindCSS"
-                  width={35}
-                  height={35}
-                />
-                <img
-                  src="https://skillicons.dev/icons?i=supabase"
-                  alt="Supabase"
-                  width={35}
-                  height={35}
-                />
+                <Link href="https://nextjs.org/" target="blank">
+                  <img
+                    src="https://skillicons.dev/icons?i=next"
+                    alt="Next.js"
+                    width={35}
+                    height={35}
+                  />
+                </Link>
+                <Link href="https://tailwindcss.com/" target="blank">
+                  <img
+                    src="https://skillicons.dev/icons?i=tailwind"
+                    alt="TailwindCSS"
+                    width={35}
+                    height={35}
+                  />
+                </Link>
+                <Link href="https://supabase.com/" target="blank">
+                  <img
+                    src="https://skillicons.dev/icons?i=supabase"
+                    alt="Supabase"
+                    width={35}
+                    height={35}
+                  />
+                </Link>
               </div>
               <ul className="list-disc list-inside space-y-2 my-5 text-lg max-sm:text-base">
                 <li>
@@ -158,24 +170,30 @@ function info() {
                 </span>
               </h3>
               <div className="flex gap-2 items-center mt-3 ml-3">
-                <img
-                  src="https://skillicons.dev/icons?i=react"
-                  alt="React"
-                  width={35}
-                  height={35}
-                />
-                <img
-                  src="https://skillicons.dev/icons?i=laravel"
-                  alt="Laravel"
-                  width={35}
-                  height={35}
-                />
-                <img
-                  src="https://skillicons.dev/icons?i=mysql"
-                  alt="MYSQL"
-                  width={35}
-                  height={35}
-                />
+                <Link href="https://react.dev/" target="blank">
+                  <img
+                    src="https://skillicons.dev/icons?i=react"
+                    alt="React"
+                    width={35}
+                    height={35}
+                  />
+                </Link>
+                <Link href="https://laravel.com/" target="blank">
+                  <img
+                    src="https://skillicons.dev/icons?i=laravel"
+                    alt="Laravel"
+                    width={35}
+                    height={35}
+                  />
+                </Link>
+                <Link href="https://www.mysql.com/" target="blank">
+                  <img
+                    src="https://skillicons.dev/icons?i=mysql"
+                    alt="MYSQL"
+                    width={35}
+                    height={35}
+                  />
+                </Link>
               </div>
               <ul className="list-disc list-inside space-y-2 my-5 text-lg max-sm:text-base">
                 <li>
