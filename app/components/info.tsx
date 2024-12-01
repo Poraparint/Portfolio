@@ -160,7 +160,7 @@ function info() {
           {/* Experience 3 */}
 
           <div className="flex items-start">
-            <i className="fa-regular fa-circle mt-2 mr-4 text-sm"></i>
+            <i className="fa-solid fa-circle mt-2 mr-4 text-sm"></i>
             <div>
               <h3 className="text-xl font-semibold max-sm:text-lg">
                 Patient Management and Revenue Calculation System for a Clinic{" "}
