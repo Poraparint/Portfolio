@@ -3,25 +3,14 @@ import Link from 'next/link';
 
 function info() {
   return (
-    <div className="w-full text-main p-10 duration-700 flex flex-col gap-14 max-sm:text-base">
-      <div className="flex flex-col gap-3">
-        <h1 className="text-4xl font-semibold max-sm:text-2xl">
-          PORAPARINT PKAKDEEPHUMMIN
-        </h1>
-        <p className="mt-5">
-          My name is Poraparint, a second-year student at the University of
-          Phayao, majoring in Software Engineering. I am seeking internship
-          opportunities to gain experience as a Front-end Developer, Project
-          Manager, or in other software-related fields.
-        </p>
-      </div>
+    <div className="w-full text-main duration-700 flex flex-col gap-14 max-sm:text-base mt-8">
       <div className="flex flex-col">
-        <h1 className="text-2xl max-sm:text-lg font-semibold">EXPERIENCE</h1>
+        <h1 className="text-2xl max-sm:text-lg font-semibold">PROJECTS</h1>
         <hr className="mb-5 mt-2 border-main rounded-full" />
-        <div className="space-y-16">
+        <div className="flex flex-col gap-5">
           {/* Experience 1 */}
-          <div className="flex items-start">
-            <i className="fa-solid fa-circle mt-2 mr-4 text-sm"></i>
+          <div className="flex items-start bg-[#dcdbdb] p-5 rounded-xl">
+            <i className="fa-solid fa-circle mt-2 mr-4 text-xs"></i>
             <div>
               <h3 className="text-xl max-sm:text-lg font-semibold">
                 Time Management System{" "}
@@ -56,14 +45,14 @@ function info() {
                   />
                 </Link>
               </div>
-              <ul className="list-disc list-inside space-y-2 my-5 text-lgmax-sm:text-base">
+              <ul className="list-disc list-inside space-y-2 my-5 text-lg max-sm:text-base">
                 <li>
                   Designed a system for creating boards that enable users to
                   collaborate and manage a shared calendar.
                 </li>
                 <li>Developed using Next.js and Supabase as the database.</li>
               </ul>
-              <div className="flex gap-3">
+              <div className="flex gap-3 ">
                 <Link
                   href="https://appointment-dental.vercel.app/"
                   target="_blank"
@@ -87,8 +76,8 @@ function info() {
             </div>
           </div>
           {/* Experience 2 */}
-          <div className="flex items-start">
-            <i className="fa-solid fa-circle mt-2 mr-4 text-sm"></i>
+          <div className="flex items-start bg-[#dcdbdb] p-5 rounded-xl">
+            <i className="fa-solid fa-circle mt-2 mr-4 text-xs"></i>
             <div>
               <h3 className="text-xl font-semibold max-sm:text-lg">
                 Team Project: Job Finder System{" "}
@@ -159,8 +148,8 @@ function info() {
           </div>
           {/* Experience 3 */}
 
-          <div className="flex items-start">
-            <i className="fa-regular fa-circle mt-2 mr-4 text-sm"></i>
+          <div className="flex items-start bg-[#dcdbdb] p-5 rounded-xl">
+            <i className="fa-solid fa-circle mt-2 mr-4 text-xs"></i>
             <div>
               <h3 className="text-xl font-semibold max-sm:text-lg">
                 Patient Management and Revenue Calculation System for a Clinic{" "}
