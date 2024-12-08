@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Profile() {
   return (
-    <div className="w-full bg-secon flex text-main py-10 pr-5 max-lg:flex-col-reverse gap-8">
+    <div className="w-full bg-secon flex text-main py-10 pr-5 max-xl::flex-col-reverse gap-8">
       <div className="flex flex-col gap-9 w-4/6 max-lg:text-base duration-700 max-lg:w-full my-5">
         {/* Content Section */}
         <div className="flex flex-col gap-3">
