@@ -196,7 +196,7 @@ function info() {
               </ul>
               <div className="flex gap-3">
                 <Link
-                  href="https://github.com/Poraparint/DentLab-React-Laravel"
+                  href="https://github.com/Poraparint/Patient-Management-public"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
