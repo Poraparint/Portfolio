@@ -14,10 +14,10 @@ export const Sidebar = ({
       onClick={onClick}
       className="flex flex-col justify-center items-center hover:text-black duration-100"
     >
-      <div className="w-12 h-12 flex justify-center items-center rounded-full bg-white">
+      <div className="size-11 flex justify-center items-center rounded-full bg-main text-secon text-xl shadow-md">
         <i className={`fa-solid ${icon}`}></i>
       </div>
-      <span className="mt-2 text-base ">{label}</span>
+      <span className="mt-2 text-base">{label}</span>
     </button>
   );
 };

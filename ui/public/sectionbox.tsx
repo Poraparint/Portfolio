@@ -35,7 +35,7 @@ export const SectionBox = ({
         <div className="flex gap-3 ">
           {websiteLink && (
             <TargetLink target={websiteLink}>
-              <div className="btn text-secon bg-main border-none">
+              <div className="btn text-secon bg-main border-none shadow-md">
                 <i className="fa-solid fa-link"></i>
                 Visit My Website
               </div>
@@ -43,7 +43,7 @@ export const SectionBox = ({
           )}
           {githubLink && (
             <TargetLink target={githubLink}>
-              <div className="btn text-secon bg-main border-none">
+              <div className="btn text-secon bg-main border-none shadow-md">
                 <i className="fa-brands fa-github text-2xl"></i>
               </div>
             </TargetLink>
