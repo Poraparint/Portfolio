@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { ContactTarget } from "@/ui/shared";
+import { contactData } from "@/data/contactdata";
 
 
 export const Profile = () => {
@@ -19,26 +19,14 @@ export const Profile = () => {
         </div>
         {/* Contact Section */}
         <div className="grid grid-cols-2 gap-3">
-          <ContactTarget
-            target="https://www.facebook.com/poraparin.phakdeephoomin/?locale=th_TH"
-            icon="fa-brands fa-facebook"
-            text="Facebook"
-          />
-          <ContactTarget
-            target="mailto:poraparint@gmail.com"
-            icon="fa-regular fa-envelope"
-            text="Gmail"
-          />
-          <ContactTarget
-            target="https://github.com/Poraparint"
-            icon="fa-brands fa-github"
-            text="Github"
-          />
-          <ContactTarget
-            target="https://www.linkedin.com/in/poraparint-p-2a92a6347"
-            icon="fa-brands fa-linkedin"
-            text="Linkedin"
-          />
+          {contactData.map((contact) => (
+            <ContactTarget
+              key={contact.id}
+              target={contact.target}
+              icon={contact.icon}
+              text={contact.text}
+            />
+          ))}
         </div>
       </div>
       {/* Avatar Section */}
