@@ -13,7 +13,7 @@ export const Profile = () => {
           <h1 className="text-4xl font-semibold">PORAPARINT PKAKDEEPHUMMIN</h1>
           <p className="mt-2">
             I am seeking internship opportunities to gain experience as a
-            Fullstack Developer, Project Manager, or in other software-related
+            Fullstack Developer or in other software-related
             fields.
           </p>
         </div>
