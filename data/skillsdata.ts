@@ -15,6 +15,7 @@ export const SkillsData: SkillCategory[] = [
     icon: "fa-solid fa-code",
     items: [
       { text: "NextJS", icon: "https://skillicons.dev/icons?i=nextjs" },
+      { text: "Angular", icon: "https://skillicons.dev/icons?i=angular" },
       { text: "Prisma", icon: "https://skillicons.dev/icons?i=prisma" },
       { text: "Python", icon: "https://skillicons.dev/icons?i=python" },
       { text: "Java", icon: "https://skillicons.dev/icons?i=java" },
@@ -39,8 +40,9 @@ export const SkillsData: SkillCategory[] = [
     title: "Learning",
     icon: "fa-solid fa-graduation-cap",
     items: [
-      { text: "C++", icon: "https://skillicons.dev/icons?i=c" },
+      { text: "C#", icon: "https://skillicons.dev/icons?i=c#" },
       { text: "Express", icon: "https://skillicons.dev/icons?i=express" },
+      { text: "Azure", icon: "https://skillicons.dev/icons?i=azure" },
     ],
   },
 ];
