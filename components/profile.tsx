@@ -17,7 +17,7 @@ export const Profile = () => {
             fields.
           </p>
         </div>
-        {/* Contact Section */}
+        {/* Contact Section  */}
         <div className="grid grid-cols-2 gap-3">
           {contactData.map((contact) => (
             <ContactTarget
