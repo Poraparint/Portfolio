@@ -3,6 +3,7 @@ import { TargetLink } from "@/ui/common/targetlink";
 
 interface SectionBoxProps {
   title: string;
+  position: string;
   timeline: string;
   header: React.ReactNode;
   children: React.ReactNode;
@@ -12,6 +13,7 @@ interface SectionBoxProps {
 
 export const SectionBox = ({
   title,
+  position,
   timeline,
   header,
   children,
@@ -23,7 +25,7 @@ export const SectionBox = ({
       <i className="fa-solid fa-circle mt-2 mr-4 text-xs"></i>
       <div>
         <h3 className="text-xl max-sm:text-lg font-semibold">
-          {title} <span className="font-normal text-gray-600"> {timeline}</span>
+          {title} - { position }<span className="font-normal text-gray-600"> {timeline}</span>
         </h3>
 
         {header}

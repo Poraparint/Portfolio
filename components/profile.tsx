@@ -12,9 +12,10 @@ export const Profile = () => {
         <div className="flex flex-col gap-3">
           <h1 className="text-4xl font-semibold">PORAPARINT PKAKDEEPHUMMIN</h1>
           <p className="mt-2">
-            I am seeking internship opportunities to gain experience as a
-            Fullstack Developer or in other software-related
-            fields.
+            Software Engineering student with experience building full-stack
+            business applications using Next.js and Spring Boot. Passionate
+            about solving real-world problems through software and eager to
+            contribute as a Software Engineering Intern.
           </p>
         </div>
         {/* Contact Section  */}

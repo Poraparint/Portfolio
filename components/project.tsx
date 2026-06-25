@@ -8,46 +8,8 @@ export const Info = () => {
       <div className="flex flex-col gap-5">
         {/* Experience 1 */}
         <SectionBox
-          title="TradingEdge"
-          timeline="/ April 2026 - Present"
-          header={
-            <div className="flex gap-2 items-center mt-3 ml-3">
-              <IconBox
-                target="https://nextjs.org/"
-                icon="https://skillicons.dev/icons?i=react"
-                alt="React"
-              />
-              <IconBox
-                target="https://Java.com/"
-                icon="https://skillicons.dev/icons?i=spring"
-                alt="Spring Boot"
-              />
-              <IconBox
-                target="https://Flyway.com/"
-                icon="https://skillicons.dev/icons?i=flyway"
-                alt="Flyway"
-              />
-            </div>
-          }
-        >
-          <li>
-            This web application is a trading journal for tracking assets,
-            techniques, win rates, and monthly profit/loss. Users can record
-            daily orders and view statistics to learn from and monitor their
-            trading results.
-          </li>
-          <li>
-            I am developing this system using Java (Spring Boot) for the
-            backend, Flyway for database migrations, and React for the frontend.
-          </li>
-          <li>
-            The goal is to provide a tracking tool that helps users analyze and
-            improve their trading performance over time.
-          </li>
-        </SectionBox>
-        {/* Experience 2 */}
-        <SectionBox
           title="Dental Clinic Management System"
+          position="Fullstack Developer"
           timeline="/ March 2025 - October 2025"
           header={
             <div className="flex gap-2 items-center mt-3 ml-3">
@@ -72,19 +34,31 @@ export const Info = () => {
           githubLink="https://github.com/Poraparint/dental-clinic-system"
         >
           <li>
-            Developed a full-stack dental clinic management system for small
-            clinics with easy-to-use design. Main features include patient
-            information storage, appointment booking, dental treatment records,
-            money tracking, staff permission control, and data reports. I did
-            all parts of the project including UXUI design, Frontend, Backend,
-            and Testing.
+            Designed the complete UX/UI in Figma and developed the application
+            using Next.js, Auth.js, Prisma ORM, Supabase, and shadcn/ui
+          </li>
+          <li>
+            Built a clinic management system for small dental clinics covering
+            patient records, appointment scheduling, treatment plans, re-check
+            appointments, installment payments, revenue & expense tracking, and
+            dashboard reporting.
+          </li>
+          <li>
+            Implemented email verification authentication and role-based access
+            control (RBAC) with Manager, Co-manager, Dentist, and Assistant
+            permissions
+          </li>
+          <li>
+            Designed database schema and integrated backend services using
+            Prisma and Supabase.
           </li>
         </SectionBox>
 
-        {/* Experience 3 */}
+        {/* Experience 2 */}
         <SectionBox
-          title="Team Project: Job Finder System"
-          timeline="/ June 2024 - October 2024"
+          title="POS Buddy"
+          position="Frontend"
+          timeline="/ November 2024 - January 2025"
           header={
             <div className="flex gap-2 items-center mt-3 ml-3">
               <IconBox
@@ -93,27 +67,36 @@ export const Info = () => {
                 alt="Next.js"
               />
               <IconBox
-                target="https://supabase.com/"
-                icon="https://skillicons.dev/icons?i=supabase"
-                alt="Supabase"
+                target="https://prisma.com/"
+                icon="https://skillicons.dev/icons?i=prisma"
+                alt="Prisma"
+              />
+              <IconBox
+                target="https://postgresql.com/"
+                icon="https://skillicons.dev/icons?i=postgresql"
+                alt="PostgreSQL"
               />
             </div>
           }
-          githubLink="https://github.com/Poraparint/Jobhouse_Supabase"
         >
           <li>
-            Collaborated in a team of 4 members to create a system for
-            connecting employers and freelancers.
+            Collaborated with a team of three developers to build a
+            Point-of-Sale (POS) system over a three-month development cycle.
           </li>
           <li>
-            Focused on implementing features to allow users to add their own job
-            postings.
+            Developed responsive user interfaces using Next.js and shadcn/ui,
+            connected with a Neon PostgreSQL database.
           </li>
-          <li>Built using Next.js and Supabase as the database.</li>
+          <li>
+            Worked closely with the backend developer and expanded knowledge of
+            backend architecture and API integration during development.
+          </li>
         </SectionBox>
-        {/* Experience 4 */}
+
+        {/* Experience 3 */}
         <SectionBox
           title="Patient Management and Revenue Calculation System for a Clinic"
+          position="Fullstack Developer"
           timeline="/ March 2024 - April 2024"
           header={
             <div className="flex gap-2 items-center mt-3 ml-3">
@@ -137,12 +120,16 @@ export const Info = () => {
           githubLink="https://github.com/Poraparint/Patient-Management-public"
         >
           <li>
-            Developed a system for managing patient records and calculating
-            clinic revenue.
+            Built a web application for managing patient records and clinic
+            transactions.
           </li>
           <li>
-            Utilized React framework for the front-end and Laravel for the
-            back-end, integrated with a MySQL database.
+            Implemented CRUD operations, revenue calculation, and reporting
+            features.
+          </li>
+          <li>
+            Developed the frontend using React and backend APIs using Laravel
+            with MYSQL.
           </li>
         </SectionBox>
       </div>

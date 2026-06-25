@@ -5,6 +5,7 @@ import { useRef } from "react";
 
 export default function Home() {
   const sectionRefs: Record<string, React.RefObject<HTMLDivElement>> = {
+    experience: useRef(null),
     profile: useRef(null),
     skills: useRef(null),
     projects: useRef(null),
