@@ -10,7 +10,7 @@ export const Profile = () => {
       <div className="flex flex-col gap-9 w-4/6 max-lg:text-base duration-700 max-xl:w-full my-5">
         {/* Content Section */}
         <div className="flex flex-col gap-3">
-          <h1 className="text-4xl font-semibold">PORAPARINT PKAKDEEPHUMMIN</h1>
+          <h1 className="text-4xl font-semibold">PORAPARINT PHAKDEEPHUMMIN</h1>
           <p className="mt-2">
             Software Engineering student with experience building full-stack
             business applications using Next.js and Spring Boot. Passionate
